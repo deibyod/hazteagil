@@ -1,0 +1,52 @@
+/* Effective stylesheet produced by snapshot save */
+.yui-overlay, .yui-panel-container { visibility: hidden; position: absolute; z-index: 2; }
+.yui-panel-container form { margin: 0px; }
+.mask { z-index: 1; display: none; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; }
+.mask.block-scrollbars { overflow: auto; }
+.masked select, .drag select, .hide-select select {  }
+.yui-panel-container select {  }
+.hide-scrollbars, .hide-scrollbars * { overflow: hidden; }
+.hide-scrollbars select { display: none; }
+.show-scrollbars { overflow: auto; }
+.yui-panel-container.show-scrollbars, .yui-tt.show-scrollbars { overflow: visible; }
+.yui-panel-container.show-scrollbars .underlay, .yui-tt.show-scrollbars .yui-tt-shadow { overflow: auto; }
+.yui-panel-container.shadow .underlay.yui-force-redraw { padding-bottom: 1px; }
+.yui-effect-fade .underlay { display: none; }
+.yui-tt-shadow { position: absolute; }
+.yui-override-padding { padding: 0px ! important; }
+.yui-panel-container .container-close { overflow: hidden; text-indent: -10000em; text-decoration: none; }
+.yui-skin-sam .mask { background-color: rgb(0, 0, 0); opacity: 0.25; }
+.yui-skin-sam .yui-panel-container { padding: 0px 1px; }
+.yui-skin-sam .yui-panel { position: relative; left: 0px; top: 0px; border-style: solid; border-width: 1px 0px; border-color: rgb(128, 128, 128); z-index: 1; }
+.yui-skin-sam .yui-panel .hd, .yui-skin-sam .yui-panel .bd, .yui-skin-sam .yui-panel .ft { border-style: solid; border-width: 0px 1px; border-color: rgb(128, 128, 128); margin: 0px -1px; }
+.yui-skin-sam .yui-panel .hd { border-bottom: 1px solid rgb(204, 204, 204); }
+.yui-skin-sam .yui-panel .bd, .yui-skin-sam .yui-panel .ft { background-color: rgb(242, 242, 242); }
+.yui-skin-sam .yui-panel .hd { padding: 0px 10px; font-size: 93%; line-height: 2; font-weight: bold; color: rgb(0, 0, 0); background: url("sprite.png") repeat-x scroll 0px -200px transparent; }
+.yui-skin-sam .yui-panel .bd { padding: 10px; }
+.yui-skin-sam .yui-panel .ft { border-top: 1px solid rgb(128, 128, 128); padding: 5px 10px; font-size: 77%; }
+.yui-skin-sam .yui-panel-container.focused .yui-panel .hd {  }
+.yui-skin-sam .container-close { position: absolute; top: 5px; right: 6px; width: 25px; height: 15px; background: url("sprite.png") no-repeat scroll 0px -300px transparent; cursor: pointer; }
+.yui-skin-sam .yui-panel-container .underlay { right: -1px; left: -1px; }
+.yui-skin-sam .yui-panel-container.matte { padding: 9px 10px; background-color: rgb(255, 255, 255); }
+.yui-skin-sam .yui-panel-container.shadow {  }
+.yui-skin-sam .yui-panel-container.shadow .underlay { position: absolute; top: 2px; left: -3px; right: -3px; bottom: -3px; background-color: rgb(0, 0, 0); opacity: 0.12; }
+.yui-skin-sam .yui-dialog .ft { border-top: medium none; padding: 0px 10px 10px; font-size: 100%; }
+.yui-skin-sam .yui-dialog .ft .button-group { display: block; text-align: right; }
+.yui-skin-sam .yui-dialog .ft button.default { font-weight: bold; }
+.yui-skin-sam .yui-dialog .ft span.default { border-color: rgb(48, 67, 105); background-position: 0px -1400px; }
+.yui-skin-sam .yui-dialog .ft span.default .first-child { border-color: rgb(48, 67, 105); }
+.yui-skin-sam .yui-dialog .ft span.default button { color: rgb(255, 255, 255); }
+.yui-skin-sam .yui-dialog .ft span.yui-button-disabled { background-position: 0pt -1500px; border-color: rgb(204, 204, 204); }
+.yui-skin-sam .yui-dialog .ft span.yui-button-disabled .first-child { border-color: rgb(204, 204, 204); }
+.yui-skin-sam .yui-dialog .ft span.yui-button-disabled button { color: rgb(166, 166, 166); }
+.yui-skin-sam .yui-simple-dialog .bd .yui-icon { background: url("sprite.png") no-repeat scroll 0px 0px transparent; width: 16px; height: 16px; margin-right: 10px; float: left; }
+.yui-skin-sam .yui-simple-dialog .bd span.blckicon { background-position: 0px -1100px; }
+.yui-skin-sam .yui-simple-dialog .bd span.alrticon { background-position: 0px -1050px; }
+.yui-skin-sam .yui-simple-dialog .bd span.hlpicon { background-position: 0px -1150px; }
+.yui-skin-sam .yui-simple-dialog .bd span.infoicon { background-position: 0px -1200px; }
+.yui-skin-sam .yui-simple-dialog .bd span.warnicon { background-position: 0px -1900px; }
+.yui-skin-sam .yui-simple-dialog .bd span.tipicon { background-position: 0px -1250px; }
+.yui-skin-sam .yui-tt .bd { position: relative; top: 0px; left: 0px; z-index: 1; color: rgb(0, 0, 0); padding: 2px 5px; border-color: rgb(212, 194, 55) rgb(166, 152, 43) rgb(166, 152, 43); border-width: 1px; border-style: solid; background-color: rgb(255, 238, 105); }
+.yui-skin-sam .yui-tt.show-scrollbars .bd { overflow: auto; }
+.yui-skin-sam .yui-tt-shadow { top: 2px; right: -3px; left: -3px; bottom: -3px; background-color: rgb(0, 0, 0); }
+.yui-skin-sam .yui-tt-shadow-visible { opacity: 0.12; }

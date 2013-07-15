@@ -1,0 +1,36 @@
+<?php 
+	require('navegacion.php');
+	$contenido = '
+	<h1>Modelos del ciclo de vida del software</h1>
+	<h2>Espiral</h2>
+	<p>El problema con los modelos de procesos de software es que no se enfrentan lo suficiente con la incertidumbre inherente a los procesos de software. Importantes proyectos de software fallaron porque los riesgos del proyecto se despreciaron y nadie se preparó para algún imprevisto. Boehm reconoció esto y trató de incorporar el factor “riesgo del proyecto” al modelo de ciclo de vida, agregándole a las mejores características de los modelos Cascada y Prototipado. El resultado fue el Modelo Espiral. La dirección del nuevo modelo fue incorporar los puntos fuertes y evitar las dificultades de otros modelos desplazando el énfasis de administración hacia la evaluación y resolución del riesgo. De esta manera se permite tanto a los desarrolladores como a los clientes detener el proceso cuando se lo considere conveniente.</p>
+	<h3>Descripción del modelo:</h3>
+<p>Básicamente, la idea es desarrollo incremental usando el modelo Cascada para cada paso, ayudando a administrar los riesgos. No se define en detalle el sistema completo al principio; los diseñadores deberían definir e implementar solamente los rasgos de mayor prioridad. Con el conocimiento adquirido, podrían entonces volver atrás y definir e implementar más características en trozos más pequeños.</p>
+<p>El modelo Espiral define cuatro actividades principales en su ciclo de vida:</p>
+<ul>
+<li>Planeamiento: determinación de los objetivos, alternativas y limitaciones del proyecto.</li>
+<li>Análisis de riesgo: análisis de alternativas e identificación y solución de riesgos.</li>
+<li>Ingeniería: desarrollo y testeo del producto.</li>
+<li>Evaluación del cliente: tasación de los resultados de la ingeniería.</li>
+</ul>
+<p>El modelo está representado por una espiral dividida en cuatro cuadrantes, cada una de las cuales representa una de las actividades arriba mencionadas.</p>
+<h3>Puntos fuertes</h3>
+<ul>
+<li>Evita las dificultades de los modelos existentes a través de un acercamiento conducido por el riesgo.</li>
+<li>Intenta eliminar errores en las fases tempranas.</li>
+<li>Es el mismo modelo para el desarrollo y el mantenimiento.</li>
+<li>Provee mecanismos para la aseguración de la calidad del software.</li>
+<li>La reevaluación después de cada fase permite cambios en las percepciones de los usuarios, avances tecnológicos o perspectivas financieras.</li>
+<li>La focalización en los objetivos y limitaciones ayuda a asegurar la calidad.</li>
+</ul>
+<h3>Puntos débiles</h3>
+<ul>
+<li>Falta un proceso de guía explícito para determinar objetivos, limitaciones y alternativas.</li>
+<li>Provee más flexibilidad que la conveniente para la mayoría de las aplicaciones.</li>
+<li>La pericia de tasación del riesgo no es una tarea fácil. El autor declara que es necesaria mucha experiencia en proyectos de software para realizar esta tarea exitosamente.</li>
+</ul>
+<h3>Aplicación</h3>
+<p>Proyectos complejos, dinámicos, innovadores, ambiciosos, llevados a cabo por equipos internos (no necesariamente de software).</p>
+	'; // Contenido
+	require('base/general.php');
+?>

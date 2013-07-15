@@ -1,0 +1,118 @@
+/* Effective stylesheet produced by snapshot save */
+@import url("total.css");
+body { background-color: rgb(45, 45, 45); font: 13px/16px arial,verdana,sans-serif; text-align: center; color: rgb(204, 204, 204); margin: 0px; padding: 0px; }
+body.rtl { direction: rtl; }
+h3 { font-size: 1.25em; }
+#cc-logo { display: none; }
+#deed-bg {  }
+.mockup-badge { position: fixed; background-color: rgb(238, 238, 238); color: rgb(6, 6, 6); padding: 0px 1em; top: 0px; opacity: 0.5; font-size: 70%; }
+.left { left: 0px; border-bottom-right-radius: 10px; }
+.right { right: 0px; border-bottom-left-radius: 10px; }
+#deed { background: none repeat scroll 0% 0% rgb(66, 66, 66); border-top-left-radius: 10px; border-top-right-radius: 10px; width: 768px; padding: 10px 0px; color: rgb(51, 51, 51); margin: 20px auto; text-align: center; }
+#deed-head { width: 750px; height: 134px; margin: 0px auto; position: relative; }
+#deed-head h1 { margin: 0px; }
+#deed-head span, #deed-foot span { display: none; }
+#cc-link a { display: block; position: absolute; top: 0px; left: 0px; width: 750px; height: 80px; }
+.pd #cc-link { display: block; position: absolute; top: 40px; height: 35px; width: 200px; }
+.pd #cc-link a { height: 35px; width: 200px; }
+.red #deed-head { background: url("urn:not-loaded:http://creativecommons.org/images/deed/deed-head-red.png") no-repeat scroll 0px 0px transparent; }
+.yellow #deed-head { background: url("urn:not-loaded:http://creativecommons.org/images/deed/deed-head-yellow.png") no-repeat scroll 0px 0px transparent; }
+.green #deed-head { background: url("deed-head-green.png") no-repeat scroll 0px 0px transparent; }
+.pd #deed-head { border-top-left-radius: 5px; border-top-right-radius: 5px; height: 100px; }
+.pd-grey #deed-head { background: url("urn:not-loaded:http://creativecommons.org/images/deed/deed-head-grey.png") no-repeat scroll 0px 0px transparent; }
+#deed-main { background-color: rgb(255, 255, 255); width: 750px ! important; padding: 20px 0px; margin: 0px auto; text-align: left; border-bottom: 1px solid rgb(80, 80, 80); }
+body.rtl #deed-main { text-align: right; }
+.pd #deed-main { border-color: rgb(187, 192, 171); }
+#deed-newer { border: 1px solid rgb(224, 173, 173); background-color: rgb(240, 240, 240); padding: 15px; margin-top: 25px; }
+#deed-newer a, #deed-main a { color: rgb(17, 17, 17); text-decoration: underline; font-weight: bold; }
+#deed-main a.inline-help { text-decoration: none; font-weight: inherit; border-bottom: 1px dashed rgb(51, 51, 51); }
+#deed-main-content { position: relative; margin: 0px 15px; }
+#deed-license { text-align: center; margin-top: 0px; margin-bottom: 50px; font-weight: bold; color: rgb(255, 255, 255); }
+#deed-license h2 { margin: 0px; font-size: 1.46em; padding-top: 90px; line-height: 1.1; }
+.pd #deed-license { position: relative; height: 100px; }
+.pd #deed-license h2 { position: absolute; bottom: 20px; color: rgb(51, 51, 51); font-size: 2em; text-shadow: 0px 1px 0px rgb(255, 255, 255); line-height: 1.2; margin: 0px; padding: 0px; width: 100%; }
+#deed-main img { float: right; border: 1px solid rgb(136, 136, 136); margin-bottom: 5px; }
+#deed-disclaimer { position: relative; width: 500px; margin: 5px auto 0px; border: 1px solid rgb(204, 204, 204); background: none repeat scroll 0% 0% rgb(241, 241, 241); border-radius: 5px 5px 5px 5px; color: rgb(119, 119, 119); overflow-y: hidden; }
+#deed-disclaimer .summary { padding: 10px; border-bottom: 1px solid rgb(204, 204, 204); }
+#deed-disclaimer .disclaimer { padding: 4px 6px; text-align: right; }
+#deed-disclaimer a { color: rgb(90, 90, 90); }
+#deed-rights { background: url("freedoms-header.png") no-repeat scroll 0px 0px transparent; padding: 0px; margin-bottom: 30px; min-height: 11em; }
+#deed-conditions { background: url("limitations-header.png") no-repeat scroll 0px 0px transparent; padding: 0px; margin-bottom: 20px; }
+#deed-conditions ul { margin-top: 22px; }
+#deed-conditions ul li ul { margin-top: 8px; }
+#deed-understanding { padding: 0px; margin-top: 0px; margin-bottom: 33px; background: url("understanding-header.png") no-repeat scroll 0px 0px transparent; }
+.pd #deed-understanding { padding-left: 10px; }
+.pd #deed-understanding ul { padding-left: 0px; }
+.pd #deed-understanding ul ul { margin-left: 100px; }
+#deed-understanding li.license { padding-left: 0px; }
+#deed-understanding-zero { margin-top: -20px; margin-bottom: 0px; }
+#deed-understanding ul, #deed-understanding-zero ul { list-style: none outside none; margin-top: 2em; }
+#deed-understanding ul ul, #deed-understanding-zero ul ul { list-style-type: disc; margin-top: 1em; }
+#deed-conditions div.fineprint { padding: 15px; border: 1px solid rgb(221, 221, 221); color: rgb(17, 17, 17); font-size: 0.92em; }
+#deed-foot { position: relative; width: 750px; padding: 10px 0px; margin: 0px auto; color: rgb(255, 255, 255); text-align: left; }
+body.rtl #deed-foot { text-align: right; }
+.pd #deed-foot { color: rgb(51, 51, 51); overflow-y: inherit; }
+#deed-foot p { margin: 0px 20px; padding: 0px; }
+a { color: rgb(255, 252, 9); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.pd a { color: rgb(74, 73, 2); }
+.red #deed-foot { background: url("urn:not-loaded:http://creativecommons.org/images/deed/deed-foot-red.png") repeat scroll 0px 0px transparent; }
+.yellow #deed-foot { background: url("urn:not-loaded:http://creativecommons.org/images/deed/deed-foot-yellow.png") repeat scroll 0px 0px transparent; }
+.green #deed-foot { background: url("urn:not-loaded:http://creativecommons.org/images/deed/deed-foot-green.png") repeat scroll 0px 0px transparent; }
+.pd #deed-foot { height: 70px; }
+.pd-grey #deed-foot { background: url("urn:not-loaded:http://creativecommons.org/images/deed/deed-foot-grey.png") no-repeat scroll 0px 0px transparent; }
+#disclaimer { float: right; padding-right: 15px; padding-left: 20px; }
+li strong { color: rgb(34, 34, 34); }
+li { margin-bottom: 8px; }
+.green #deed-rights ul.license-properties { width: 520px ! important; }
+ul.license-properties { width: 600px; list-style: none outside none; }
+li.license { list-style: none outside none; padding-bottom: 25px; padding-left: 70px; padding-top: 5px; min-height: 3.5em; }
+ul.understanding li.license { min-height: inherit; padding-bottom: 15px; }
+li.license ul.license-properties { padding-left: 0px; }
+li.license p { margin: 0px; padding: 0px; }
+li.license-hidden { list-style: none outside none; }
+li.free { background: url("urn:not-loaded:http://mirrors.creativecommons.org/tmp/freedomdefined-50x50.png") no-repeat scroll 0px 0px transparent; }
+li.share, li.remix, li.commercial { padding-left: 0px; padding-bottom: 0px; min-height: 1em; }
+li.devnations { background: url("urn:not-loaded:http://creativecommons.org/images/deed/devnations.png") no-repeat scroll 0px 0px transparent; }
+li.no-endorse { background: url("urn:not-loaded:http://creativecommons.org/images/deed/no-endorse.png") no-repeat scroll 0px 0px transparent; }
+li.by { background: url("by.png") no-repeat scroll 0px 0px transparent; }
+li.nc { background: url("urn:not-loaded:http://creativecommons.org/images/deed/nc.png") no-repeat scroll 0px 0px transparent; }
+li.nc-jp { background: url("urn:not-loaded:http://creativecommons.org/images/deed/nc-jp.png") no-repeat scroll 0px 0px transparent; }
+li.nc-eu { background: url("urn:not-loaded:http://creativecommons.org/images/deed/nc-eu.png") no-repeat scroll 0px 0px transparent; }
+li.sa { background: url("urn:not-loaded:http://creativecommons.org/images/deed/sa.png") no-repeat scroll 0px 0px transparent; }
+li.nd { background: url("urn:not-loaded:http://creativecommons.org/images/deed/nd.png") no-repeat scroll 0px 0px transparent; }
+li.sampling, li.samplingplus { background: url("urn:not-loaded:http://creativecommons.org/images/deed/sampling.png") no-repeat scroll 0px 0px transparent; }
+li.more { background: url("urn:not-loaded:http://creativecommons.org/images/deed/more.png") no-repeat scroll 0px 0px transparent; }
+li.notice { background: url("urn:not-loaded:http://creativecommons.org/images/deed/notice.png") no-repeat scroll 0px 0px transparent; }
+li.src { background: url("urn:not-loaded:http://creativecommons.org/images/deed/src.png") no-repeat scroll 0px 0px transparent; }
+li.nolaw { background: url("urn:not-loaded:http://creativecommons.org/images/deed/nolaw.png") no-repeat scroll 0px 8px transparent; }
+li ul li.nolaw { background: url("urn:not-loaded:http://creativecommons.org/images/deed/nolaw-small.png") no-repeat scroll 0px 8px transparent; padding-left: 32px; }
+li.usage-guidelines { background: url("urn:not-loaded:http://creativecommons.org/images/deed/usage-guidelines.png") no-repeat scroll 0px 0px transparent; margin-bottom: 25px; }
+li ul li.usage-guidelines { background: url("urn:not-loaded:http://creativecommons.org/images/deed/usage-guidelines-small.png") no-repeat scroll 0px 6px transparent; padding-left: 32px; margin-bottom: 0px; }
+li.publicdomain { background: url("urn:not-loaded:http://creativecommons.org/images/deed/noc.png") no-repeat scroll 0px 3px transparent; }
+li a { color: rgb(0, 0, 255); text-decoration: none; }
+#referrer-metadata { padding: 20px; border-style: dotted; }
+#referrer-metadata a { color: rgb(0, 0, 255); text-decoration: none; }
+blockquote { padding: 8px; background-color: rgb(238, 238, 238); margin: 15px 0px; clear: both; }
+h3 { padding-top: 10px; padding-left: 10px; margin-top: 1.75em; margin-bottom: 1.25em; }
+#libre { position: absolute; right: 25px; top: 36px; width: 150px; height: 250px; }
+#librepd { width: 150px; float: right; }
+#libre img, #libre a, #librepd img, #librepd a { border: medium none ! important; margin-top: 2px; }
+div.bd p { color: rgb(17, 17, 17); padding-bottom: 10px ! important; font-size: 0.92em; margin: 0px ! important; }
+#work-attribution-container { border: 1px solid rgb(213, 213, 213); margin-top: 10px; padding: 7px; }
+#work-attribution-container input { width: 93%; border: 1px solid rgb(136, 138, 133); height: 1.9em; }
+#attribution_help img, #citation_help img { border: 0px none; margin: 0px; float: none; }
+#work-details-block div { margin-top: 0px; padding-top: 15px; padding-bottom: 0px; border-top: 1px solid rgb(221, 221, 221); }
+#work-details-block div ul { list-style: none outside none; }
+#work-details-item-title { display: inline-block; width: 6em; text-align: right; margin-right: 0.5em; }
+ol.gpl { counter-reset: item -1; }
+li.gpl { list-style: none outside none; }
+li.gpl:before { content: counter(item, decimal) ". "; counter-increment: item; }
+.network { padding: 8px ! important; margin-top: 1em ! important; background-color: rgb(212, 239, 185); }
+div#languages { width: 90%; margin: 1.5em auto; text-align: center; overflow: auto; background-color: rgb(55, 55, 55); padding: 0.5em; border-radius: 5px 5px 5px 5px; font-size: 0.9em; }
+div#languages a { color: rgb(204, 204, 204); }
+div#languages p { margin-top: 0px; }
+.help_panel { display: none; }
+#help_publicity_rights, #help_endorsement, #help_citation_help, #help_who_is_affirmer, #help_disclaimer { visibility: hidden; height: 0px; }
+#help_publicity_rights_c > #help_publicity_rights, #help_endorsement_c > #help_endorsement, #help_citation_ehlp_c > #help_citation_help, #help_who_is_affirmer_c > #help_who_is_affirmer_c, #help_disclaimer_c > #help_disclaimer { height: auto; }
+ol.arabic-markers { list-style-type: none; }
